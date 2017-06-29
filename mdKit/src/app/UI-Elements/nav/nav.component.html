@@ -1,0 +1,17 @@
+<div class="row" style="margin-top:-60px">
+                        <div class="col-md-12">
+                            <div class="nav-center">
+                                <ul class="nav nav-pills nav-pills-warning nav-pills-icons" >
+                                    <li  routerLinkActive  ="active"
+                                       [routerLinkActiveOptions] = "{exact : true}" *ngFor="let item of localArray">
+                                        <a [routerLink]="[item.link]">
+                                            <i class="material-icons">{{item.logo}}</i> {{item.name}}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                             <div class="content">
+                    <router-outlet></router-outlet>
+             </div>
+                        </div>
+                    </div>
