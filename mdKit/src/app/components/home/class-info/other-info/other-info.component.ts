@@ -1,28 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 declare var $ : any;
 @Component({
-  selector: 'app-class',
-  templateUrl: './class.component.html',
-  styleUrls: ['./class.component.css']
+  selector: 'app-other-info',
+  templateUrl: './other-info.component.html',
+  styleUrls: ['./other-info.component.css']
 })
-export class ClassComponent implements OnInit {
+export class OtherInfoComponent implements OnInit {
 
   constructor() { }
 
+  ngOnInit() {
+  }
 
         ngAfterViewInit(){
          
          $.getScript('../../../assets/js/datatables.js');
          $.getScript('../../../assets/js/material-dashboard.js');
          
-       
-           
-        
-        console.log("AfterView");
+      
         
         }
-
-  ngOnInit() {
-  }
-
 }

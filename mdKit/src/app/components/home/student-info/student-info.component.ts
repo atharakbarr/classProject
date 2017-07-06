@@ -13,4 +13,15 @@ export class StudentInfoComponent implements OnInit {
    
     }
 
+        ngAfterViewInit(){
+         
+         $.getScript('../../../assets/js/datatables.js');
+         $.getScript('../../../assets/js/material-dashboard.js');
+         
+       
+           
+        
+        console.log("AfterView");
+        
+        }
 }

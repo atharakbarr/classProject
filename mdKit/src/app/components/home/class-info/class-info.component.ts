@@ -16,12 +16,6 @@ export class ClassInfoComponent implements OnInit {
 
 
 
-        ngAfterViewInit(){
-         $.getScript('../../assets/js/datatables.js');
-        console.log("AfterView");
-        
-        }
-
 
 
 }

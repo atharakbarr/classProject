@@ -13,8 +13,8 @@ export class navPillsService {
      this.menuItems.push(new NavPillItem("Institute", "home", "School",true));
      this.menuItems.push(new NavPillItem("Class Info", "info", "Class" ,false));
      this.menuItems.push(new NavPillItem("Student's Info", "face","Student" , false));
-     this.menuItems.push(new NavPillItem("Staff", "group","/Staff" , false));
-     this.menuItems.push(new NavPillItem("GR Register", "class","/Gr" , false));
+     this.menuItems.push(new NavPillItem("Staff", "group","Staff" , false));
+     this.menuItems.push(new NavPillItem("GR Register", "class","Gr" , false));
   }
 
 

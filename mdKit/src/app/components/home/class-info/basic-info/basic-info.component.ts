@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 declare var $ : any;
 @Component({
-  selector: 'app-class',
-  templateUrl: './class.component.html',
-  styleUrls: ['./class.component.css']
+  selector: 'app-basic-info',
+  templateUrl: './basic-info.component.html',
+  styleUrls: ['./basic-info.component.css']
 })
-export class ClassComponent implements OnInit {
+export class BasicInfoComponent implements OnInit {
 
   constructor() { }
-
 
         ngAfterViewInit(){
          
@@ -21,7 +20,6 @@ export class ClassComponent implements OnInit {
         console.log("AfterView");
         
         }
-
   ngOnInit() {
   }
 
