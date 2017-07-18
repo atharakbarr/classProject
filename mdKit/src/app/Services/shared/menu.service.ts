@@ -11,7 +11,7 @@ export class MenuService {
      this.menuItems.push(new SidebarItems("Dashboard", "dashboard", "/dashboard",false));
      this.menuItems.push(new SidebarItems("Home", "home", "/home" ,false));
      this.menuItems.push(new SidebarItems("Fee", "dashboard","/fee" , false));
-     this.menuItems.push(new SidebarItems("Reports", "home","/reports" , false));
+     this.menuItems.push(new SidebarItems("Reports", "pie_chart","/reports" , false));
      this.menuItems.push(new SidebarItems("SMS Sender", "comment","/smsSender" , false));
   }
 
